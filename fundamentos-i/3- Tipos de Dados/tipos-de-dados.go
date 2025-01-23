@@ -95,6 +95,7 @@ func main(){
 	fmt.Println(erro) //valor zero de um erro é nil
 	//um tipo de dado que serve como valor 0 pra muitas coisas: interfaces, ponteiros, canais, funções, slices, maps e strings
 
+	
 	//Para criar um erro, é necessário importar a biblioteca 'errors', que é uma biblioteca padrão do Go
 	//errors.New() é uma função que cria um erro, e o valor passado como argumento é a mensagem de erro
 	//não é uma string, é um dado tipo error
