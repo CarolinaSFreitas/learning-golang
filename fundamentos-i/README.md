@@ -80,3 +80,38 @@ float32 e float64. O tipo ``float`` é inferido quando não declarado.
 18. Erros: 
 O tipo ``error`` é usado para representar erros. Para criar um erro, usa-se a função ``errors.New()``.
 
+19. **Funções Tipadas**  
+   No Go, os parâmetros e os retornos de uma função devem ter seus tipos explicitamente declarados.  
+
+20. **Funções Anônimas**  
+   São funções sem nome, que podem ser atribuídas a variáveis. Essas funções também podem ter parâmetros e retornos.  
+
+21. **Múltiplos Retornos em Funções**  
+   Funções em Go podem retornar múltiplos valores, permitindo, por exemplo, retornar soma e subtração ao mesmo tempo.  
+
+22. **Ignorar Valores de Retorno**  
+   Para descartar valores retornados por uma função, utilize o caractere underline (`_`).  
+
+23. **Restrição de Tipos em Operações**  
+   No Go, não é possível realizar operações matemáticas diretamente entre variáveis de tipos diferentes.  
+
+24. **Operadores Relacionais e Lógicos**  
+   - Operadores relacionais: `==`, `!=`, `>`, `<`, `>=`, `<=`.  
+   - Operadores lógicos: `&&`, `||`, `!`.  
+
+25. **Incremento e Decremento**  
+   O Go possui operadores unários como `++` e `--`, além de operadores compostos como `+=` e `-=`.  
+
+26. **Simulação de Operador Ternário**  
+   Apesar de não haver operador ternário no Go, é possível simular sua lógica utilizando estruturas condicionais (`if`).  
+
+27. **Structs como Tipos Compostos**  
+   Structs permitem criar tipos que agrupam diferentes campos com seus próprios tipos e valores.  
+
+28. **Structs Aninhados**  
+   Um struct pode conter outros structs como campos, criando hierarquias de dados.  
+
+29. **Inicialização de Structs**  
+   Existem várias formas de inicializar structs, como:  
+       - Instância com valores padrão.  
+       - Atribuição explícita de valores para cada campo.  
